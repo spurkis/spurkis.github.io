@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "spurkis"
-baseURL = "https://spurkis.github.io/"
+baseURL = "https://www.spurkis.org/"
 theme = "massively"
 googleanalytics = ""
 disqusShortname = ""
