@@ -3,4 +3,4 @@
 	url = https://github.com/curttimson/hugo-theme-massively
 [submodule "static/asteroids"]
 	path = static/asteroids
-	url = git@github.com:spurkis/asteroids.git
+	url = https://github.com/spurkis/asteroids
