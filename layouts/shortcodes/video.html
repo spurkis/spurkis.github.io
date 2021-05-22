@@ -1,0 +1,11 @@
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true"
+         {{ with .Get "width" }}width="{{ . }}"{{ end }}
+         {{ with .Get "poster" }}poster="{{ . }}"{{ end }}
+         {{ with .Get "autoplay" }}autoplay muted{{ end }}
+         {{ with .Get "loop" }}loop{{ end }}>
+    {{ with .Get "mp4" }}<source src="{{ . }}" type="video/mp4">{{ end }}
+    {{ with .Get "webm" }}<source src="{{ . }}" type="video/webm">{{ end }}
+    {{ with .Get "ogg" }}<source src="{{ . }}" type="video/ogg">{{ end }}
+  </video>
+</figure>

@@ -1,0 +1,26 @@
+languageCode = "en-us"
+title = "spurkis"
+baseURL = "http://localhost:1313/"
+theme = "massively"
+googleanalytics = ""
+disqusShortname = ""
+disableKinds = ["taxonomy", "taxonomyTerm", "section"]
+
+[params]
+  favicon = "favicon.ico"
+  # dateFormat = "2.1.2006" # set to change date format
+
+# Below parameters can be set to override default post settings
+# [params.posts]
+#     folderName = "post"
+#     pageSize = "6"
+#     featuredPost = true
+#     paginationPages = 2
+#     showFirstLast = false
+
+[languages]
+[languages.en]
+  languageName = "English"
+#[languages.fr]
+#  languageName = "Français"
+#  title = "Massively - Version Française"
