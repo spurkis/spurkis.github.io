@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Steve's HTML5 Canvas Test</title>
+		<link href="asteroids-style.css" rel="stylesheet" type="text/css" />
+		<script src="jquery-min.js" type="text/javascript"></script>
+
+		<!-- order is important here -->
+		<script src="asteroids.js" type="text/javascript"></script>
+		<script src="ImagePreloader.js" type="text/javascript"></script>
+		<script src="asteroidUtils.js" type="text/javascript"></script>
+		<script src="SpaceObject.js" type="text/javascript"></script>
+		<script src="AsteroidsGame.js" type="text/javascript"></script>
+		<script src="Levels.js" type="text/javascript"></script>
+		<script src="Planets.js" type="text/javascript"></script>
+		<script src="Ships.js" type="text/javascript"></script>
+		<script src="Weapons.js" type="text/javascript"></script>
+
+<script language="javascript">
+$(document).ready(setupNav);
+</script>
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1034003-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+  </head>
+  <body>
+		<header>
+			<h1>Steve's HTML5 Canvas test</h1>
+			<nav class="top">
+				<ul>
+					<li id="newgame"><a href="#">new game</a>
+						<ul id="levels"></ul>
+					</li>
+					<li id="nav-about"><a href="#">about</a></li>
+					<li id="survey"><a href="http://www.surveymonkey.com/s/HQJ33MD">Click here to take survey</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<section id="asteroid-game">
+			<canvas id="game" width="800" height="400">if you had a real broswer, this would be a canvas</canvas>
+			<div id="controlBox">
+				<input id="controls" type="text" placeholder="click to control" autofocus="autofocus"/>
+				<p>Controls:
+					<ul class="controlsInfo">
+						<li>up/i: accelerate forward</li>
+						<li>down/k: accelerate backward</li>
+						<li>left/j: spin ccw</li>
+						<li>right/l: spin cw</li>
+						<li>space: shoot</li>
+						<li>w: switch weapon</li>
+					</ul>
+				</p>
+			</div>
+		</section>
+
+		<section id="about">
+			<h1>Steve's Asteroids HTML5 Canvas Test</h1>
+			<p><b>Using Internet Explorer?</b>  Try pressing "F12" before you click on a level, then pressing "F12" again.</p>
+			<p>Note that this will perform poorly (if at all) on most mobile devices!  Yes, that includes iPads & Android tablets, as well as phones.</p>
+			<p>Features:
+				<ul>
+					<li>gravity</li>
+					<li>planets</li>
+					<li>land on planets</li>
+					<li>enemy ship</li>
+					<li>fired weapons are shootable</li>
+				</ul>
+			</p>
+
+			<p>Not yet Features:
+				<ul>
+					<li>sound</li>
+					<li>fancy graphics</li>
+					<li>lots more...</li>
+				</ul>
+			</p>
+			<p>Copyright &copy; 2012 Steve Purkis, all rights reserved.</p>
+		</section>
+
+	</body>
+</html>

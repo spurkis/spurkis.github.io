@@ -1,0 +1,1447 @@
+<html>
+<head>
+<title>Test Report</title>
+<link rel="stylesheet" type="text/css" href="default_page.css" />
+<link rel="stylesheet" type="text/css" href="default_report.css" />
+<script type="text/javascript" src="jquery-1.2.6.pack.js"></script>
+<script type="text/javascript" src="default_report.js"></script>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1034003-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+</head>
+<body>
+<div id="summary" class="failed">
+<a href="#" title="Test Summary (99.7% ok)
+severity: very-low
+passed 347/348 tests in 24 files
+total time: 4.60s
+7 wallclock secs ( 0.35 usr  0.20 sys +  2.34 cusr  0.81 csys =  3.70 CPU)">FAILED</a>
+</div>
+
+<div id="menu">
+<li>
+<span id="show-all"><a href="#" title="show all tests">show all</a></span>
+    <span id="show-failed"><a href="#" title="show failed tests only">show failed</a></span>
+</li>
+</div>
+
+<div id="detail">
+<table class="detail">
+<thead>
+<tr>
+<th class="file">Test file</th>
+<th class="results">Test results</th>
+<th class="time">Time</th>
+<th class="percent">%</th>
+</tr>
+</thead>
+<tbody>
+<tr class="test-run passed" id="">
+<td class="file c">
+<a class="file" href="#" title="Test ok.
+  1 planned, 1 run
+  1 ok, 0 failed
+  0 todo, 0 skipped
+exit status: 0
+wait status: 0">t/00basic.t</a>
+</td>
+<td class="results">
+<table class="TS">
+<tr>										<td class="k p"><a class="TS" href="#t0"> </a></td>
+
+</tr>
+</table>
+<div class="test-detail">
+<ul class="parse-errors">
+</ul>
+<ul class="test-out">
+<li class="pln">1..1</li>
+<li class="cmt"># Running under perl version 5.008004 for darwin</li>
+<li class="cmt"># Current time local: Wed Aug 13 14:50:51 2008</li>
+<li class="cmt"># Current time GMT:   Wed Aug 13 13:50:51 2008</li>
+<li class="cmt"># Using Test.pm version 1.24</li>
+<li id="t0" class="tst k">ok 1</li>
+</ul>
+</div>
+</td>
+<td class="time">0.23s</td>
+<td class="percent c cb">100.0%</td>
+</tr>
+<tr class="test-run passed" id="">
+<td class="file c">
+<a class="file" href="#" title="Test ok.
+  3 planned, 3 run
+  3 ok, 0 failed
+  0 todo, 0 skipped
+exit status: 0
+wait status: 0">t/01logon.t</a>
+</td>
+<td class="results">
+<table class="TS">
+<tr>										<td class="k p"><a class="TS" href="#t1"> </a></td>
+<td class="k p"><a class="TS" href="#t2"> </a></td>
+<td class="k p"><a class="TS" href="#t3"> </a></td>
+
+</tr>
+</table>
+<div class="test-detail">
+<ul class="parse-errors">
+</ul>
+<ul class="test-out">
+<li class="pln">1..3</li>
+<li class="cmt"># Running under perl version 5.008004 for darwin</li>
+<li class="cmt"># Current time local: Wed Aug 13 14:50:51 2008</li>
+<li class="cmt"># Current time GMT:   Wed Aug 13 13:50:51 2008</li>
+<li class="cmt"># Using Test.pm version 1.24</li>
+<li id="t1" class="tst k">ok 1</li>
+<li id="t2" class="tst k">ok 2</li>
+<li id="t3" class="tst k">ok 3</li>
+<li class="unk">sqlite_version=3.4.2, sqlite_encoding=</li>
+</ul>
+</div>
+</td>
+<td class="time">0.46s</td>
+<td class="percent c cb">100.0%</td>
+</tr>
+<tr class="test-run passed" id="">
+<td class="file c">
+<a class="file" href="#" title="Test ok.
+  4 planned, 4 run
+  4 ok, 0 failed
+  0 todo, 0 skipped
+exit status: 0
+wait status: 0">t/02cr_table.t</a>
+</td>
+<td class="results">
+<table class="TS">
+<tr>										<td class="k p"><a class="TS" href="#t4"> </a></td>
+<td class="k p"><a class="TS" href="#t5"> </a></td>
+<td class="k p"><a class="TS" href="#t6"> </a></td>
+<td class="k p"><a class="TS" href="#t7"> </a></td>
+
+</tr>
+</table>
+<div class="test-detail">
+<ul class="parse-errors">
+</ul>
+<ul class="test-out">
+<li class="pln">1..4</li>
+<li class="cmt"># Running under perl version 5.008004 for darwin</li>
+<li class="cmt"># Current time local: Wed Aug 13 14:50:52 2008</li>
+<li class="cmt"># Current time GMT:   Wed Aug 13 13:50:52 2008</li>
+<li class="cmt"># Using Test.pm version 1.24</li>
+<li id="t4" class="tst k">ok 1</li>
+<li id="t5" class="tst k">ok 2</li>
+<li id="t6" class="tst k">ok 3</li>
+<li class="unk">f1, f1, f2, f3</li>
+<li id="t7" class="tst k">ok 4</li>
+<li class="unk">closing dbh with active statement handles at t/02cr_table.t line 16.</li>
+</ul>
+</div>
+</td>
+<td class="time">0.20s</td>
+<td class="percent c cb">100.0%</td>
+</tr>
+<tr class="test-run passed" id="">
+<td class="file c">
+<a class="file" href="#" title="Test ok.
+  9 planned, 9 run
+  9 ok, 0 failed
+  0 todo, 0 skipped
+exit status: 0
+wait status: 0">t/03insert.t</a>
+</td>
+<td class="results">
+<table class="TS">
+<tr>										<td class="k p"><a class="TS" href="#t8"> </a></td>
+<td class="k p"><a class="TS" href="#t9"> </a></td>
+<td class="k p"><a class="TS" href="#t10"> </a></td>
+<td class="k p"><a class="TS" href="#t11"> </a></td>
+<td class="k p"><a class="TS" href="#t12"> </a></td>
+<td class="k p"><a class="TS" href="#t13"> </a></td>
+<td class="k p"><a class="TS" href="#t14"> </a></td>
+<td class="k p"><a class="TS" href="#t15"> </a></td>
+<td class="k p"><a class="TS" href="#t16"> </a></td>
+
+</tr>
+</table>
+<div class="test-detail">
+<ul class="parse-errors">
+</ul>
+<ul class="test-out">
+<li class="pln">1..9</li>
+<li class="cmt"># Running under perl version 5.008004 for darwin</li>
+<li class="cmt"># Current time local: Wed Aug 13 14:50:52 2008</li>
+<li class="cmt"># Current time GMT:   Wed Aug 13 13:50:52 2008</li>
+<li class="cmt"># Using Test.pm version 1.24</li>
+<li id="t8" class="tst k">ok 1</li>
+<li id="t9" class="tst k">ok 2</li>
+<li id="t10" class="tst k">ok 3</li>
+<li id="t11" class="tst k">ok 4</li>
+<li id="t12" class="tst k">ok 5</li>
+<li id="t13" class="tst k">ok 6</li>
+<li id="t14" class="tst k">ok 7</li>
+<li id="t15" class="tst k">ok 8</li>
+<li id="t16" class="tst k">ok 9</li>
+<li class="unk">DBI::db=HASH(0x180a6a8)-&gt;disconnect invalidates 1 active statement handle (either destroy statement handles or call finish on them before disconnecting) at t/03insert.t line 15.</li>
+<li class="unk">closing dbh with active statement handles at t/03insert.t line 15.</li>
+</ul>
+</div>
+</td>
+<td class="time">0.13s</td>
+<td class="percent c cb">100.0%</td>
+</tr>
+<tr class="test-run passed" id="">
+<td class="file c">
+<a class="file" href="#" title="Test ok.
+  7 planned, 7 run
+  7 ok, 0 failed
+  0 todo, 0 skipped
+exit status: 0
+wait status: 0">t/04select.t</a>
+</td>
+<td class="results">
+<table class="TS">
+<tr>										<td class="k p"><a class="TS" href="#t17"> </a></td>
+<td class="k p"><a class="TS" href="#t18"> </a></td>
+<td class="k p"><a class="TS" href="#t19"> </a></td>
+<td class="k p"><a class="TS" href="#t20"> </a></td>
+<td class="k p"><a class="TS" href="#t21"> </a></td>
+<td class="k p"><a class="TS" href="#t22"> </a></td>
+<td class="k p"><a class="TS" href="#t23"> </a></td>
+
+</tr>
+</table>
+<div class="test-detail">
+<ul class="parse-errors">
+</ul>
+<ul class="test-out">
+<li class="pln">1..7</li>
+<li class="cmt"># Running under perl version 5.008004 for darwin</li>
+<li class="cmt"># Current time local: Wed Aug 13 14:50:52 2008</li>
+<li class="cmt"># Current time GMT:   Wed Aug 13 13:50:52 2008</li>
+<li class="cmt"># Using Test.pm version 1.24</li>
+<li id="t17" class="tst k">ok 1</li>
+<li id="t18" class="tst k">ok 2</li>
+<li id="t19" class="tst k">ok 3</li>
+<li id="t20" class="tst k">ok 4</li>
+<li id="t21" class="tst k">ok 5</li>
+<li class="unk">Fred, Bloggs, fred@bloggs.com</li>
+<li id="t22" class="tst k">ok 6</li>
+<li id="t23" class="tst k">ok 7</li>
+<li class="unk">closing dbh with active statement handles at t/04select.t line 17.</li>
+</ul>
+</div>
+</td>
+<td class="time">0.05s</td>
+<td class="percent c cb">100.0%</td>
+</tr>
+<tr class="test-run passed" id="">
+<td class="file c">
+<a class="file" href="#" title="Test ok.
+  2 planned, 2 run
+  2 ok, 0 failed
+  0 todo, 0 skipped
+exit status: 0
+wait status: 0">t/05tran.t</a>
+</td>
+<td class="results">
+<table class="TS">
+<tr>										<td class="k p"><a class="TS" href="#t24"> </a></td>
+<td class="k p"><a class="TS" href="#t25"> </a></td>
+
+</tr>
+</table>
+<div class="test-detail">
+<ul class="parse-errors">
+</ul>
+<ul class="test-out">
+<li class="pln">1..2</li>
+<li class="cmt"># Running under perl version 5.008004 for darwin</li>
+<li class="cmt"># Current time local: Wed Aug 13 14:50:52 2008</li>
+<li class="cmt"># Current time GMT:   Wed Aug 13 13:50:52 2008</li>
+<li class="cmt"># Using Test.pm version 1.24</li>
+<li id="t24" class="tst k">ok 1</li>
+<li id="t25" class="tst k">ok 2</li>
+<li class="unk">ID, TITLE, TOTAL</li>
+<li class="unk">closing dbh with active statement handles at t/05tran.t line 34.</li>
+</ul>
+</div>
+</td>
+<td class="time">0.12s</td>
+<td class="percent c cb">100.0%</td>
+</tr>
+<tr class="test-run passed" id="">
+<td class="file c">
+<a class="file" href="#" title="Test ok.
+  2 planned, 2 run
+  2 ok, 0 failed
+  0 todo, 0 skipped
+exit status: 0
+wait status: 0">t/06error.t</a>
+</td>
+<td class="results">
+<table class="TS">
+<tr>										<td class="k p"><a class="TS" href="#t26"> </a></td>
+<td class="k p"><a class="TS" href="#t27"> </a></td>
+
+</tr>
+</table>
+<div class="test-detail">
+<ul class="parse-errors">
+</ul>
+<ul class="test-out">
+<li class="pln">1..2</li>
+<li class="cmt"># Running under perl version 5.008004 for darwin</li>
+<li class="cmt"># Current time local: Wed Aug 13 14:50:52 2008</li>
+<li class="cmt"># Current time GMT:   Wed Aug 13 13:50:52 2008</li>
+<li class="cmt"># Using Test.pm version 1.24</li>
+<li id="t26" class="tst k">ok 1</li>
+<li id="t27" class="tst k">ok 2</li>
+</ul>
+</div>
+</td>
+<td class="time">0.12s</td>
+<td class="percent c cb">100.0%</td>
+</tr>
+<tr class="test-run passed" id="">
+<td class="file c">
+<a class="file" href="#" title="Test ok.
+  18 planned, 18 run
+  18 ok, 0 failed
+  0 todo, 0 skipped
+exit status: 0
+wait status: 0">t/08create_function.t</a>
+</td>
+<td class="results">
+<table class="TS">
+<tr>										<td class="k p"><a class="TS" href="#t28"> </a></td>
+<td class="k p"><a class="TS" href="#t29"> </a></td>
+<td class="k p"><a class="TS" href="#t30"> </a></td>
+<td class="k p"><a class="TS" href="#t31"> </a></td>
+<td class="k p"><a class="TS" href="#t32"> </a></td>
+<td class="k p"><a class="TS" href="#t33"> </a></td>
+<td class="k p"><a class="TS" href="#t34"> </a></td>
+<td class="k p"><a class="TS" href="#t35"> </a></td>
+<td class="k p"><a class="TS" href="#t36"> </a></td>
+<td class="k p"><a class="TS" href="#t37"> </a></td>
+<td class="k p"><a class="TS" href="#t38"> </a></td>
+<td class="k p"><a class="TS" href="#t39"> </a></td>
+<td class="k p"><a class="TS" href="#t40"> </a></td>
+<td class="k p"><a class="TS" href="#t41"> </a></td>
+<td class="k p"><a class="TS" href="#t42"> </a></td>
+<td class="k p"><a class="TS" href="#t43"> </a></td>
+<td class="k p"><a class="TS" href="#t44"> </a></td>
+<td class="k p"><a class="TS" href="#t45"> </a></td>
+
+</tr>
+</table>
+<div class="test-detail">
+<ul class="parse-errors">
+</ul>
+<ul class="test-out">
+<li class="pln">1..18</li>
+<li class="cmt"># Running under perl version 5.008004 for darwin</li>
+<li class="cmt"># Current time local: Wed Aug 13 14:50:53 2008</li>
+<li class="cmt"># Current time GMT:   Wed Aug 13 13:50:53 2008</li>
+<li class="cmt"># Using Test.pm version 1.24</li>
+<li id="t28" class="tst k">ok 1</li>
+<li id="t29" class="tst k">ok 2</li>
+<li id="t30" class="tst k">ok 3</li>
+<li id="t31" class="tst k">ok 4</li>
+<li id="t32" class="tst k">ok 5</li>
+<li id="t33" class="tst k">ok 6</li>
+<li id="t34" class="tst k">ok 7</li>
+<li id="t35" class="tst k">ok 8</li>
+<li id="t36" class="tst k">ok 9</li>
+<li id="t37" class="tst k">ok 10</li>
+<li id="t38" class="tst k">ok 11</li>
+<li id="t39" class="tst k">ok 12</li>
+<li id="t40" class="tst k">ok 13</li>
+<li id="t41" class="tst k">ok 14</li>
+<li id="t42" class="tst k">ok 15</li>
+<li id="t43" class="tst k">ok 16</li>
+<li id="t44" class="tst k">ok 17</li>
+<li id="t45" class="tst k">ok 18</li>
+</ul>
+</div>
+</td>
+<td class="time">0.21s</td>
+<td class="percent c cb">100.0%</td>
+</tr>
+<tr class="test-run passed" id="">
+<td class="file c">
+<a class="file" href="#" title="Test ok.
+  15 planned, 15 run
+  15 ok, 0 failed
+  0 todo, 0 skipped
+exit status: 0
+wait status: 0">t/09create_aggregate.t</a>
+</td>
+<td class="results">
+<table class="TS">
+<tr>										<td class="k p"><a class="TS" href="#t46"> </a></td>
+<td class="k p"><a class="TS" href="#t47"> </a></td>
+<td class="k p"><a class="TS" href="#t48"> </a></td>
+<td class="k p"><a class="TS" href="#t49"> </a></td>
+<td class="k p"><a class="TS" href="#t50"> </a></td>
+<td class="k p"><a class="TS" href="#t51"> </a></td>
+<td class="k p"><a class="TS" href="#t52"> </a></td>
+<td class="k p"><a class="TS" href="#t53"> </a></td>
+<td class="k p"><a class="TS" href="#t54"> </a></td>
+<td class="k p"><a class="TS" href="#t55"> </a></td>
+<td class="k p"><a class="TS" href="#t56"> </a></td>
+<td class="k p"><a class="TS" href="#t57"> </a></td>
+<td class="k p"><a class="TS" href="#t58"> </a></td>
+<td class="k p"><a class="TS" href="#t59"> </a></td>
+<td class="k p"><a class="TS" href="#t60"> </a></td>
+
+</tr>
+</table>
+<div class="test-detail">
+<ul class="parse-errors">
+</ul>
+<ul class="test-out">
+<li class="pln">1..15</li>
+<li class="cmt"># Running under perl version 5.008004 for darwin</li>
+<li class="cmt"># Current time local: Wed Aug 13 14:50:53 2008</li>
+<li class="cmt"># Current time GMT:   Wed Aug 13 13:50:53 2008</li>
+<li class="cmt"># Using Test.pm version 1.24</li>
+<li id="t46" class="tst k">ok 1</li>
+<li id="t47" class="tst k">ok 2</li>
+<li id="t48" class="tst k">ok 3</li>
+<li id="t49" class="tst k">ok 4</li>
+<li id="t50" class="tst k">ok 5</li>
+<li id="t51" class="tst k">ok 6</li>
+<li id="t52" class="tst k">ok 7</li>
+<li id="t53" class="tst k">ok 8</li>
+<li id="t54" class="tst k">ok 9</li>
+<li id="t55" class="tst k">ok 10</li>
+<li id="t56" class="tst k">ok 11</li>
+<li id="t57" class="tst k">ok 12</li>
+<li id="t58" class="tst k">ok 13</li>
+<li id="t59" class="tst k">ok 14</li>
+<li id="t60" class="tst k">ok 15</li>
+</ul>
+</div>
+</td>
+<td class="time">0.15s</td>
+<td class="percent c cb">100.0%</td>
+</tr>
+<tr class="test-run passed" id="">
+<td class="file c">
+<a class="file" href="#" title="Test ok.
+  3 planned, 3 run
+  3 ok, 0 failed
+  0 todo, 0 skipped
+exit status: 0
+wait status: 0">t/10dsnlist.t</a>
+</td>
+<td class="results">
+<table class="TS">
+<tr>										<td class="k p"><a class="TS" href="#t61"> </a></td>
+<td class="k p"><a class="TS" href="#t62"> </a></td>
+<td class="k p"><a class="TS" href="#t63"> </a></td>
+
+</tr>
+</table>
+<div class="test-detail">
+<ul class="parse-errors">
+</ul>
+<ul class="test-out">
+<li class="unk">Driver is SQLite</li>
+<li class="pln">1..3</li>
+<li id="t61" class="tst k">ok 1 </li>
+<li id="t62" class="tst k">ok 2 </li>
+<li class="unk">List of SQLite data sources:</li>
+<li class="unk">List ends.</li>
+<li id="t63" class="tst k">ok 3 </li>
+</ul>
+</div>
+</td>
+<td class="time">1.22s</td>
+<td class="percent c cb">100.0%</td>
+</tr>
+<tr class="test-run passed" id="">
+<td class="file c">
+<a class="file" href="#" title="Test ok.
+  5 planned, 5 run
+  5 ok, 0 failed
+  0 todo, 0 skipped
+exit status: 0
+wait status: 0">t/20createdrop.t</a>
+</td>
+<td class="results">
+<table class="TS">
+<tr>										<td class="k p"><a class="TS" href="#t64"> </a></td>
+<td class="k p"><a class="TS" href="#t65"> </a></td>
+<td class="k p"><a class="TS" href="#t66"> </a></td>
+<td class="k p"><a class="TS" href="#t67"> </a></td>
+<td class="k p"><a class="TS" href="#t68"> </a></td>
+
+</tr>
+</table>
+<div class="test-detail">
+<ul class="parse-errors">
+</ul>
+<ul class="test-out">
+<li class="pln">1..5</li>
+<li id="t64" class="tst k">ok 1 </li>
+<li id="t65" class="tst k">ok 2 </li>
+<li class="unk">Creating table:</li>
+<li class="unk">CREATE TABLE testaa (id INTEGER NOT NULL, name CHAR (64) NOT NULL)</li>
+<li id="t66" class="tst k">ok 3 </li>
+<li id="t67" class="tst k">ok 4 </li>
+<li id="t68" class="tst k">ok 5 </li>
+</ul>
+</div>
+</td>
+<td class="time">0.16s</td>
+<td class="percent c cb">100.0%</td>
+</tr>
+<tr class="test-run passed" id="">
+<td class="file c">
+<a class="file" href="#" title="Test ok.
+  17 planned, 17 run
+  17 ok, 0 failed
+  0 todo, 0 skipped
+exit status: 0
+wait status: 0">t/30insertfetch.t</a>
+</td>
+<td class="results">
+<table class="TS">
+<tr>										<td class="k p"><a class="TS" href="#t69"> </a></td>
+<td class="k p"><a class="TS" href="#t70"> </a></td>
+<td class="k p"><a class="TS" href="#t71"> </a></td>
+<td class="k p"><a class="TS" href="#t72"> </a></td>
+<td class="k p"><a class="TS" href="#t73"> </a></td>
+<td class="k p"><a class="TS" href="#t74"> </a></td>
+<td class="k p"><a class="TS" href="#t75"> </a></td>
+<td class="k p"><a class="TS" href="#t76"> </a></td>
+<td class="k p"><a class="TS" href="#t77"> </a></td>
+<td class="k p"><a class="TS" href="#t78"> </a></td>
+<td class="k p"><a class="TS" href="#t79"> </a></td>
+<td class="k p"><a class="TS" href="#t80"> </a></td>
+<td class="k p"><a class="TS" href="#t81"> </a></td>
+<td class="k p"><a class="TS" href="#t82"> </a></td>
+<td class="k p"><a class="TS" href="#t83"> </a></td>
+<td class="k p"><a class="TS" href="#t84"> </a></td>
+<td class="k p"><a class="TS" href="#t85"> </a></td>
+
+</tr>
+</table>
+<div class="test-detail">
+<ul class="parse-errors">
+</ul>
+<ul class="test-out">
+<li class="pln">1..17</li>
+<li id="t69" class="tst k">ok 1 connect</li>
+<li id="t70" class="tst k">ok 2 FindNewTable</li>
+<li class="unk">CREATE TABLE testaa (id INTEGER NOT NULL, name CHAR (64) NOT NULL, val INTEGER NOT NULL, txt CHAR (64) NOT NULL)</li>
+<li id="t71" class="tst k">ok 3 create</li>
+<li id="t72" class="tst k">ok 4 insert</li>
+<li id="t73" class="tst k">ok 5 prepare select</li>
+<li id="t74" class="tst k">ok 6 execute select</li>
+<li id="t75" class="tst k">ok 7 fetch select</li>
+<li id="t76" class="tst k">ok 8 compare select</li>
+<li id="t77" class="tst k">ok 9 finish select</li>
+<li id="t78" class="tst k">ok 10 undef select</li>
+<li id="t79" class="tst k">ok 11 delete</li>
+<li id="t80" class="tst k">ok 12 prepare select deleted</li>
+<li id="t81" class="tst k">ok 13 execute select deleted</li>
+<li id="t82" class="tst k">ok 14 fetch select deleted</li>
+<li id="t83" class="tst k">ok 15 finish select deleted</li>
+<li id="t84" class="tst k">ok 16 undef select deleted</li>
+<li id="t85" class="tst k">ok 17 drop</li>
+</ul>
+</div>
+</td>
+<td class="time">0.23s</td>
+<td class="percent c cb">100.0%</td>
+</tr>
+<tr class="test-run passed" id="">
+<td class="file c">
+<a class="file" href="#" title="Test ok.
+  28 planned, 28 run
+  28 ok, 0 failed
+  0 todo, 0 skipped
+exit status: 0
+wait status: 0">t/40bindparam.t</a>
+</td>
+<td class="results">
+<table class="TS">
+<tr>										<td class="k p"><a class="TS" href="#t86"> </a></td>
+<td class="k p"><a class="TS" href="#t87"> </a></td>
+<td class="k p"><a class="TS" href="#t88"> </a></td>
+<td class="k p"><a class="TS" href="#t89"> </a></td>
+<td class="k p"><a class="TS" href="#t90"> </a></td>
+<td class="k p"><a class="TS" href="#t91"> </a></td>
+<td class="k p"><a class="TS" href="#t92"> </a></td>
+<td class="k p"><a class="TS" href="#t93"> </a></td>
+<td class="k p"><a class="TS" href="#t94"> </a></td>
+<td class="k p"><a class="TS" href="#t95"> </a></td>
+<td class="k p"><a class="TS" href="#t96"> </a></td>
+<td class="k p"><a class="TS" href="#t97"> </a></td>
+<td class="k p"><a class="TS" href="#t98"> </a></td>
+<td class="k p"><a class="TS" href="#t99"> </a></td>
+<td class="k p"><a class="TS" href="#t100"> </a></td>
+<td class="k p"><a class="TS" href="#t101"> </a></td>
+<td class="k p"><a class="TS" href="#t102"> </a></td>
+<td class="k p"><a class="TS" href="#t103"> </a></td>
+<td class="k p"><a class="TS" href="#t104"> </a></td>
+<td class="k p"><a class="TS" href="#t105"> </a></td>
+<td class="k p"><a class="TS" href="#t106"> </a></td>
+<td class="k p"><a class="TS" href="#t107"> </a></td>
+<td class="k p"><a class="TS" href="#t108"> </a></td>
+<td class="k p"><a class="TS" href="#t109"> </a></td>
+<td class="k p"><a class="TS" href="#t110"> </a></td>
+<td class="k p"><a class="TS" href="#t111"> </a></td>
+<td class="k p"><a class="TS" href="#t112"> </a></td>
+<td class="k p"><a class="TS" href="#t113"> </a></td>
+
+</tr>
+</table>
+<div class="test-detail">
+<ul class="parse-errors">
+</ul>
+<ul class="test-out">
+<li class="pln">1..28</li>
+<li id="t86" class="tst k">ok 1 connect</li>
+<li id="t87" class="tst k">ok 2 FindNewTable</li>
+<li class="unk">CREATE TABLE testaa (id INTEGER NOT NULL, name CHAR (64))</li>
+<li id="t88" class="tst k">ok 3 create</li>
+<li id="t89" class="tst k">ok 4 prepare</li>
+<li id="t90" class="tst k">ok 5 execute insert 1</li>
+<li id="t91" class="tst k">ok 6 execute insert num as string</li>
+<li id="t92" class="tst k">ok 7 execute insert 2</li>
+<li id="t93" class="tst k">ok 8 bind 1</li>
+<li id="t94" class="tst k">ok 9 bind 2</li>
+<li id="t95" class="tst k">ok 10 execute binds</li>
+<li id="t96" class="tst k">ok 11 </li>
+<li id="t97" class="tst k">ok 12 </li>
+<li id="t98" class="tst k">ok 13 </li>
+<li id="t99" class="tst k">ok 14 finish</li>
+<li id="t100" class="tst k">ok 15 undef cursor</li>
+<li id="t101" class="tst k">ok 16 disconnect</li>
+<li id="t102" class="tst k">ok 17 undef dbh</li>
+<li id="t103" class="tst k">ok 18 connect for read</li>
+<li id="t104" class="tst k">ok 19 </li>
+<li id="t105" class="tst k">ok 20 </li>
+<li id="t106" class="tst k">ok 21 </li>
+<li id="t107" class="tst k">ok 22 </li>
+<li id="t108" class="tst k">ok 23 </li>
+<li id="t109" class="tst k">ok 24 </li>
+<li id="t110" class="tst k">ok 25 </li>
+<li id="t111" class="tst k">ok 26 </li>
+<li id="t112" class="tst k">ok 27 </li>
+<li id="t113" class="tst k">ok 28 </li>
+</ul>
+</div>
+</td>
+<td class="time">0.17s</td>
+<td class="percent c cb">100.0%</td>
+</tr>
+<tr class="test-run passed" id="">
+<td class="file c">
+<a class="file" href="#" title="Test ok.
+  11 planned, 11 run
+  11 ok, 0 failed
+  0 todo, 0 skipped
+exit status: 0
+wait status: 0">t/40blobs.t</a>
+</td>
+<td class="results">
+<table class="TS">
+<tr>										<td class="k p"><a class="TS" href="#t114"> </a></td>
+<td class="k p"><a class="TS" href="#t115"> </a></td>
+<td class="k p"><a class="TS" href="#t116"> </a></td>
+<td class="k p"><a class="TS" href="#t117"> </a></td>
+<td class="k p"><a class="TS" href="#t118"> </a></td>
+<td class="k p"><a class="TS" href="#t119"> </a></td>
+<td class="k p"><a class="TS" href="#t120"> </a></td>
+<td class="k p"><a class="TS" href="#t121"> </a></td>
+<td class="k p"><a class="TS" href="#t122"> </a></td>
+<td class="k p"><a class="TS" href="#t123"> </a></td>
+<td class="k p"><a class="TS" href="#t124"> </a></td>
+
+</tr>
+</table>
+<div class="test-detail">
+<ul class="parse-errors">
+</ul>
+<ul class="test-out">
+<li class="pln">1..11</li>
+<li id="t114" class="tst k">ok 1 </li>
+<li id="t115" class="tst k">ok 2 </li>
+<li class="unk">Creating table:</li>
+<li class="unk">CREATE TABLE testaa (id INTEGER NOT NULL, name BLOB NOT NULL)</li>
+<li id="t116" class="tst k">ok 3 </li>
+<li id="t117" class="tst k">ok 4 </li>
+<li id="t118" class="tst k">ok 5 </li>
+<li id="t119" class="tst k">ok 6 </li>
+<li id="t120" class="tst k">ok 7 </li>
+<li id="t121" class="tst k">ok 8 </li>
+<li id="t122" class="tst k">ok 9 </li>
+<li id="t123" class="tst k">ok 10 </li>
+<li id="t124" class="tst k">ok 11 </li>
+</ul>
+</div>
+</td>
+<td class="time">0.01s</td>
+<td class="percent c cb">100.0%</td>
+</tr>
+<tr class="test-run passed" id="">
+<td class="file c">
+<a class="file" href="#" title="Test ok.
+  13 planned, 13 run
+  13 ok, 0 failed
+  0 todo, 0 skipped
+exit status: 0
+wait status: 0">t/40listfields.t</a>
+</td>
+<td class="results">
+<table class="TS">
+<tr>										<td class="k p"><a class="TS" href="#t125"> </a></td>
+<td class="k p"><a class="TS" href="#t126"> </a></td>
+<td class="k p"><a class="TS" href="#t127"> </a></td>
+<td class="k p"><a class="TS" href="#t128"> </a></td>
+<td class="k p"><a class="TS" href="#t129"> </a></td>
+<td class="k p"><a class="TS" href="#t130"> </a></td>
+<td class="k p"><a class="TS" href="#t131"> </a></td>
+<td class="k p"><a class="TS" href="#t132"> </a></td>
+<td class="k p"><a class="TS" href="#t133"> </a></td>
+<td class="k p"><a class="TS" href="#t134"> </a></td>
+<td class="k p"><a class="TS" href="#t135"> </a></td>
+<td class="k p"><a class="TS" href="#t136"> </a></td>
+<td class="k p"><a class="TS" href="#t137"> </a></td>
+
+</tr>
+</table>
+<div class="test-detail">
+<ul class="parse-errors">
+</ul>
+<ul class="test-out">
+<li class="pln">1..13</li>
+<li id="t125" class="tst k">ok 1 </li>
+<li id="t126" class="tst k">ok 2 </li>
+<li id="t127" class="tst k">ok 3 0E0</li>
+<li id="t128" class="tst k">ok 4 </li>
+<li id="t129" class="tst k">ok 5 </li>
+<li id="t130" class="tst k">ok 6 </li>
+<li id="t131" class="tst k">ok 7 </li>
+<li id="t132" class="tst k">ok 8 </li>
+<li id="t133" class="tst k">ok 9 </li>
+<li id="t134" class="tst k">ok 10 </li>
+<li id="t135" class="tst k">ok 11 </li>
+<li id="t136" class="tst k">ok 12 </li>
+<li id="t137" class="tst k">ok 13 </li>
+</ul>
+</div>
+</td>
+<td class="time">0.16s</td>
+<td class="percent c cb">100.0%</td>
+</tr>
+<tr class="test-run passed" id="">
+<td class="file c">
+<a class="file" href="#" title="Test ok.
+  11 planned, 11 run
+  11 ok, 0 failed
+  0 todo, 0 skipped
+exit status: 0
+wait status: 0">t/40nulls.t</a>
+</td>
+<td class="results">
+<table class="TS">
+<tr>										<td class="k p"><a class="TS" href="#t138"> </a></td>
+<td class="k p"><a class="TS" href="#t139"> </a></td>
+<td class="k p"><a class="TS" href="#t140"> </a></td>
+<td class="k p"><a class="TS" href="#t141"> </a></td>
+<td class="k p"><a class="TS" href="#t142"> </a></td>
+<td class="k p"><a class="TS" href="#t143"> </a></td>
+<td class="k p"><a class="TS" href="#t144"> </a></td>
+<td class="k p"><a class="TS" href="#t145"> </a></td>
+<td class="k p"><a class="TS" href="#t146"> </a></td>
+<td class="k p"><a class="TS" href="#t147"> </a></td>
+<td class="k p"><a class="TS" href="#t148"> </a></td>
+
+</tr>
+</table>
+<div class="test-detail">
+<ul class="parse-errors">
+</ul>
+<ul class="test-out">
+<li class="pln">1..11</li>
+<li id="t138" class="tst k">ok 1 </li>
+<li id="t139" class="tst k">ok 2 </li>
+<li id="t140" class="tst k">ok 3 0E0</li>
+<li id="t141" class="tst k">ok 4 </li>
+<li id="t142" class="tst k">ok 5 </li>
+<li id="t143" class="tst k">ok 6 </li>
+<li id="t144" class="tst k">ok 7 </li>
+<li id="t145" class="tst k">ok 8 </li>
+<li id="t146" class="tst k">ok 9 </li>
+<li id="t147" class="tst k">ok 10 </li>
+<li id="t148" class="tst k">ok 11 </li>
+</ul>
+</div>
+</td>
+<td class="time">0.12s</td>
+<td class="percent c cb">100.0%</td>
+</tr>
+<tr class="test-run passed" id="">
+<td class="file c">
+<a class="file" href="#" title="Test ok.
+  22 planned, 22 run
+  22 ok, 0 failed
+  0 todo, 0 skipped
+exit status: 0
+wait status: 0">t/40numrows.t</a>
+</td>
+<td class="results">
+<table class="TS">
+<tr>										<td class="k p"><a class="TS" href="#t149"> </a></td>
+<td class="k p"><a class="TS" href="#t150"> </a></td>
+<td class="k p"><a class="TS" href="#t151"> </a></td>
+<td class="k p"><a class="TS" href="#t152"> </a></td>
+<td class="k p"><a class="TS" href="#t153"> </a></td>
+<td class="k p"><a class="TS" href="#t154"> </a></td>
+<td class="k p"><a class="TS" href="#t155"> </a></td>
+<td class="k p"><a class="TS" href="#t156"> </a></td>
+<td class="k p"><a class="TS" href="#t157"> </a></td>
+<td class="k p"><a class="TS" href="#t158"> </a></td>
+<td class="k p"><a class="TS" href="#t159"> </a></td>
+<td class="k p"><a class="TS" href="#t160"> </a></td>
+<td class="k p"><a class="TS" href="#t161"> </a></td>
+<td class="k p"><a class="TS" href="#t162"> </a></td>
+<td class="k p"><a class="TS" href="#t163"> </a></td>
+<td class="k p"><a class="TS" href="#t164"> </a></td>
+<td class="k p"><a class="TS" href="#t165"> </a></td>
+<td class="k p"><a class="TS" href="#t166"> </a></td>
+<td class="k p"><a class="TS" href="#t167"> </a></td>
+<td class="k p"><a class="TS" href="#t168"> </a></td>
+<td class="k p"><a class="TS" href="#t169"> </a></td>
+<td class="k p"><a class="TS" href="#t170"> </a></td>
+
+</tr>
+</table>
+<div class="test-detail">
+<ul class="parse-errors">
+</ul>
+<ul class="test-out">
+<li class="pln">1..22</li>
+<li id="t149" class="tst k">ok 1 </li>
+<li id="t150" class="tst k">ok 2 </li>
+<li id="t151" class="tst k">ok 3 0E0</li>
+<li id="t152" class="tst k">ok 4 </li>
+<li id="t153" class="tst k">ok 5 </li>
+<li id="t154" class="tst k">ok 6 </li>
+<li id="t155" class="tst k">ok 7 </li>
+<li id="t156" class="tst k">ok 8 </li>
+<li id="t157" class="tst k">ok 9 </li>
+<li id="t158" class="tst k">ok 10 </li>
+<li id="t159" class="tst k">ok 11 </li>
+<li id="t160" class="tst k">ok 12 </li>
+<li id="t161" class="tst k">ok 13 </li>
+<li id="t162" class="tst k">ok 14 </li>
+<li id="t163" class="tst k">ok 15 </li>
+<li id="t164" class="tst k">ok 16 </li>
+<li id="t165" class="tst k">ok 17 </li>
+<li id="t166" class="tst k">ok 18 </li>
+<li id="t167" class="tst k">ok 19 </li>
+<li id="t168" class="tst k">ok 20 </li>
+<li id="t169" class="tst k">ok 21 </li>
+<li id="t170" class="tst k">ok 22 </li>
+</ul>
+</div>
+</td>
+<td class="time">0.06s</td>
+<td class="percent c cb">100.0%</td>
+</tr>
+<tr class="test-run passed" id="">
+<td class="file c">
+<a class="file" href="#" title="Test ok.
+  35 planned, 35 run
+  35 ok, 0 failed
+  0 todo, 0 skipped
+exit status: 0
+wait status: 0">t/50chopblanks.t</a>
+</td>
+<td class="results">
+<table class="TS">
+<tr>										<td class="k p"><a class="TS" href="#t171"> </a></td>
+<td class="k p"><a class="TS" href="#t172"> </a></td>
+<td class="k p"><a class="TS" href="#t173"> </a></td>
+<td class="k p"><a class="TS" href="#t174"> </a></td>
+<td class="k p"><a class="TS" href="#t175"> </a></td>
+<td class="k p"><a class="TS" href="#t176"> </a></td>
+<td class="k p"><a class="TS" href="#t177"> </a></td>
+<td class="k p"><a class="TS" href="#t178"> </a></td>
+<td class="k p"><a class="TS" href="#t179"> </a></td>
+<td class="k p"><a class="TS" href="#t180"> </a></td>
+<td class="k p"><a class="TS" href="#t181"> </a></td>
+<td class="k p"><a class="TS" href="#t182"> </a></td>
+<td class="k p"><a class="TS" href="#t183"> </a></td>
+<td class="k p"><a class="TS" href="#t184"> </a></td>
+<td class="k p"><a class="TS" href="#t185"> </a></td>
+<td class="k p"><a class="TS" href="#t186"> </a></td>
+<td class="k p"><a class="TS" href="#t187"> </a></td>
+<td class="k p"><a class="TS" href="#t188"> </a></td>
+<td class="k p"><a class="TS" href="#t189"> </a></td>
+<td class="k p"><a class="TS" href="#t190"> </a></td>
+<td class="k p"><a class="TS" href="#t191"> </a></td>
+<td class="k p"><a class="TS" href="#t192"> </a></td>
+<td class="k p"><a class="TS" href="#t193"> </a></td>
+<td class="k p"><a class="TS" href="#t194"> </a></td>
+<td class="k p"><a class="TS" href="#t195"> </a></td>
+<td class="k p"><a class="TS" href="#t196"> </a></td>
+<td class="k p"><a class="TS" href="#t197"> </a></td>
+<td class="k p"><a class="TS" href="#t198"> </a></td>
+<td class="k p"><a class="TS" href="#t199"> </a></td>
+<td class="k p"><a class="TS" href="#t200"> </a></td>
+<td class="k p"><a class="TS" href="#t201"> </a></td>
+<td class="k p"><a class="TS" href="#t202"> </a></td>
+<td class="k p"><a class="TS" href="#t203"> </a></td>
+<td class="k p"><a class="TS" href="#t204"> </a></td>
+<td class="k p"><a class="TS" href="#t205"> </a></td>
+
+</tr>
+</table>
+<div class="test-detail">
+<ul class="parse-errors">
+</ul>
+<ul class="test-out">
+<li class="pln">1..35</li>
+<li id="t171" class="tst k">ok 1 </li>
+<li id="t172" class="tst k">ok 2 </li>
+<li id="t173" class="tst k">ok 3 0E0</li>
+<li id="t174" class="tst k">ok 4 </li>
+<li id="t175" class="tst k">ok 5 </li>
+<li id="t176" class="tst k">ok 6 </li>
+<li id="t177" class="tst k">ok 7 </li>
+<li id="t178" class="tst k">ok 8 </li>
+<li id="t179" class="tst k">ok 9 </li>
+<li id="t180" class="tst k">ok 10 </li>
+<li id="t181" class="tst k">ok 11 </li>
+<li id="t182" class="tst k">ok 12 </li>
+<li id="t183" class="tst k">ok 13 </li>
+<li id="t184" class="tst k">ok 14 </li>
+<li id="t185" class="tst k">ok 15 </li>
+<li id="t186" class="tst k">ok 16 </li>
+<li id="t187" class="tst k">ok 17 </li>
+<li id="t188" class="tst k">ok 18 </li>
+<li id="t189" class="tst k">ok 19 </li>
+<li id="t190" class="tst k">ok 20 </li>
+<li id="t191" class="tst k">ok 21 </li>
+<li id="t192" class="tst k">ok 22 </li>
+<li id="t193" class="tst k">ok 23 </li>
+<li id="t194" class="tst k">ok 24 </li>
+<li id="t195" class="tst k">ok 25 </li>
+<li id="t196" class="tst k">ok 26 </li>
+<li id="t197" class="tst k">ok 27 </li>
+<li id="t198" class="tst k">ok 28 </li>
+<li id="t199" class="tst k">ok 29 </li>
+<li id="t200" class="tst k">ok 30 </li>
+<li id="t201" class="tst k">ok 31 </li>
+<li id="t202" class="tst k">ok 32 </li>
+<li id="t203" class="tst k">ok 33 </li>
+<li id="t204" class="tst k">ok 34 </li>
+<li class="unk">closing dbh with active statement handles at t/50chopblanks.t line 144.</li>
+<li id="t205" class="tst k">ok 35 </li>
+</ul>
+</div>
+</td>
+<td class="time">0.13s</td>
+<td class="percent c cb">100.0%</td>
+</tr>
+<tr class="test-run passed" id="">
+<td class="file c">
+<a class="file" href="#" title="Test ok.
+  30 planned, 30 run
+  30 ok, 0 failed
+  0 todo, 0 skipped
+exit status: 0
+wait status: 0">t/50commit.t</a>
+</td>
+<td class="results">
+<table class="TS">
+<tr>										<td class="k p"><a class="TS" href="#t206"> </a></td>
+<td class="k p"><a class="TS" href="#t207"> </a></td>
+<td class="k p"><a class="TS" href="#t208"> </a></td>
+<td class="k p"><a class="TS" href="#t209"> </a></td>
+<td class="k p"><a class="TS" href="#t210"> </a></td>
+<td class="k p"><a class="TS" href="#t211"> </a></td>
+<td class="k p"><a class="TS" href="#t212"> </a></td>
+<td class="k p"><a class="TS" href="#t213"> </a></td>
+<td class="k p"><a class="TS" href="#t214"> </a></td>
+<td class="k p"><a class="TS" href="#t215"> </a></td>
+<td class="k p"><a class="TS" href="#t216"> </a></td>
+<td class="k p"><a class="TS" href="#t217"> </a></td>
+<td class="k p"><a class="TS" href="#t218"> </a></td>
+<td class="k p"><a class="TS" href="#t219"> </a></td>
+<td class="k p"><a class="TS" href="#t220"> </a></td>
+<td class="k p"><a class="TS" href="#t221"> </a></td>
+<td class="k p"><a class="TS" href="#t222"> </a></td>
+<td class="k p"><a class="TS" href="#t223"> </a></td>
+<td class="k p"><a class="TS" href="#t224"> </a></td>
+<td class="k p"><a class="TS" href="#t225"> </a></td>
+<td class="k p"><a class="TS" href="#t226"> </a></td>
+<td class="k p"><a class="TS" href="#t227"> </a></td>
+<td class="k p"><a class="TS" href="#t228"> </a></td>
+<td class="k p"><a class="TS" href="#t229"> </a></td>
+<td class="k p"><a class="TS" href="#t230"> </a></td>
+<td class="k p"><a class="TS" href="#t231"> </a></td>
+<td class="k p"><a class="TS" href="#t232"> </a></td>
+<td class="k p"><a class="TS" href="#t233"> </a></td>
+<td class="k p"><a class="TS" href="#t234"> </a></td>
+<td class="k p"><a class="TS" href="#t235"> </a></td>
+
+</tr>
+</table>
+<div class="test-detail">
+<ul class="parse-errors">
+</ul>
+<ul class="test-out">
+<li class="pln">1..30</li>
+<li class="unk">Attempting to connect.</li>
+<li id="t206" class="tst k">ok 1 connect</li>
+<li id="t207" class="tst k">ok 2 </li>
+<li id="t208" class="tst k">ok 3 0E0</li>
+<li id="t209" class="tst k">ok 4 </li>
+<li id="t210" class="tst k">ok 5 </li>
+<li id="t211" class="tst k">ok 6 </li>
+<li id="t212" class="tst k">ok 7 </li>
+<li id="t213" class="tst k">ok 8 </li>
+<li id="t214" class="tst k">ok 9 </li>
+<li id="t215" class="tst k">ok 10 </li>
+<li id="t216" class="tst k">ok 11 </li>
+<li id="t217" class="tst k">ok 12 </li>
+<li id="t218" class="tst k">ok 13 </li>
+<li id="t219" class="tst k">ok 14 </li>
+<li id="t220" class="tst k">ok 15 </li>
+<li id="t221" class="tst k">ok 16 </li>
+<li id="t222" class="tst k">ok 17 </li>
+<li id="t223" class="tst k">ok 18 </li>
+<li id="t224" class="tst k">ok 19 </li>
+<li id="t225" class="tst k">ok 20 </li>
+<li id="t226" class="tst k">ok 21 NumRows</li>
+<li id="t227" class="tst k">ok 22 disconnect</li>
+<li id="t228" class="tst k">ok 23 </li>
+<li id="t229" class="tst k">ok 24 </li>
+<li id="t230" class="tst k">ok 25 </li>
+<li id="t231" class="tst k">ok 26 </li>
+<li id="t232" class="tst k">ok 27 </li>
+<li id="t233" class="tst k">ok 28 </li>
+<li id="t234" class="tst k">ok 29 </li>
+<li id="t235" class="tst k">ok 30 </li>
+</ul>
+</div>
+</td>
+<td class="time">0.10s</td>
+<td class="percent c cb">100.0%</td>
+</tr>
+<tr class="test-run passed" id="">
+<td class="file c">
+<a class="file" href="#" title="Test ok.
+  24 planned, 24 run
+  24 ok, 0 failed
+  0 todo, 0 skipped
+exit status: 0
+wait status: 0">t/60metadata.t</a>
+</td>
+<td class="results">
+<table class="TS">
+<tr>										<td class="k p"><a class="TS" href="#t236"> </a></td>
+<td class="k p"><a class="TS" href="#t237"> </a></td>
+<td class="k p"><a class="TS" href="#t238"> </a></td>
+<td class="k p"><a class="TS" href="#t239"> </a></td>
+<td class="k p"><a class="TS" href="#t240"> </a></td>
+<td class="k p"><a class="TS" href="#t241"> </a></td>
+<td class="k p"><a class="TS" href="#t242"> </a></td>
+<td class="k p"><a class="TS" href="#t243"> </a></td>
+<td class="k p"><a class="TS" href="#t244"> </a></td>
+<td class="k p"><a class="TS" href="#t245"> </a></td>
+<td class="k p"><a class="TS" href="#t246"> </a></td>
+<td class="k p"><a class="TS" href="#t247"> </a></td>
+<td class="k p"><a class="TS" href="#t248"> </a></td>
+<td class="k p"><a class="TS" href="#t249"> </a></td>
+<td class="k p"><a class="TS" href="#t250"> </a></td>
+<td class="k p"><a class="TS" href="#t251"> </a></td>
+<td class="k p"><a class="TS" href="#t252"> </a></td>
+<td class="k p"><a class="TS" href="#t253"> </a></td>
+<td class="k p"><a class="TS" href="#t254"> </a></td>
+<td class="k p"><a class="TS" href="#t255"> </a></td>
+<td class="k p"><a class="TS" href="#t256"> </a></td>
+<td class="k p"><a class="TS" href="#t257"> </a></td>
+<td class="k p"><a class="TS" href="#t258"> </a></td>
+<td class="k p"><a class="TS" href="#t259"> </a></td>
+
+</tr>
+</table>
+<div class="test-detail">
+<ul class="parse-errors">
+</ul>
+<ul class="test-out">
+<li class="pln">1..24</li>
+<li class="cmt"># Running under perl version 5.008004 for darwin</li>
+<li class="cmt"># Current time local: Wed Aug 13 14:50:56 2008</li>
+<li class="cmt"># Current time GMT:   Wed Aug 13 13:50:56 2008</li>
+<li class="cmt"># Using Test.pm version 1.24</li>
+<li id="t236" class="tst k">ok 1</li>
+<li id="t237" class="tst k">ok 2</li>
+<li id="t238" class="tst k">ok 3</li>
+<li id="t239" class="tst k">ok 4</li>
+<li id="t240" class="tst k">ok 5</li>
+<li id="t241" class="tst k">ok 6</li>
+<li id="t242" class="tst k">ok 7</li>
+<li id="t243" class="tst k">ok 8</li>
+<li id="t244" class="tst k">ok 9</li>
+<li id="t245" class="tst k">ok 10</li>
+<li id="t246" class="tst k">ok 11</li>
+<li id="t247" class="tst k">ok 12</li>
+<li id="t248" class="tst k">ok 13</li>
+<li id="t249" class="tst k">ok 14</li>
+<li id="t250" class="tst k">ok 15</li>
+<li id="t251" class="tst k">ok 16</li>
+<li id="t252" class="tst k">ok 17</li>
+<li id="t253" class="tst k">ok 18</li>
+<li id="t254" class="tst k">ok 19</li>
+<li id="t255" class="tst k">ok 20</li>
+<li id="t256" class="tst k">ok 21</li>
+<li id="t257" class="tst k">ok 22</li>
+<li class="cmt"># Types: varchar(2) char(1)</li>
+<li class="cmt"># Names: f1 f2</li>
+<li id="t258" class="tst k">ok 23</li>
+<li id="t259" class="tst k">ok 24</li>
+</ul>
+</div>
+</td>
+<td class="time">0.08s</td>
+<td class="percent c cb">100.0%</td>
+</tr>
+<tr class="test-run passed" id="">
+<td class="file c">
+<a class="file" href="#" title="Test ok.
+  33 planned, 33 run
+  33 ok, 0 failed
+  0 todo, 0 skipped
+exit status: 0
+wait status: 0">t/90cppcomments.t</a>
+</td>
+<td class="results">
+<table class="TS">
+<tr>										<td class="k p"><a class="TS" href="#t260"> </a></td>
+<td class="k p"><a class="TS" href="#t261"> </a></td>
+<td class="k p"><a class="TS" href="#t262"> </a></td>
+<td class="k p"><a class="TS" href="#t263"> </a></td>
+<td class="k p"><a class="TS" href="#t264"> </a></td>
+<td class="k p"><a class="TS" href="#t265"> </a></td>
+<td class="k p"><a class="TS" href="#t266"> </a></td>
+<td class="k p"><a class="TS" href="#t267"> </a></td>
+<td class="k p"><a class="TS" href="#t268"> </a></td>
+<td class="k p"><a class="TS" href="#t269"> </a></td>
+<td class="k p"><a class="TS" href="#t270"> </a></td>
+<td class="k p"><a class="TS" href="#t271"> </a></td>
+<td class="k p"><a class="TS" href="#t272"> </a></td>
+<td class="k p"><a class="TS" href="#t273"> </a></td>
+<td class="k p"><a class="TS" href="#t274"> </a></td>
+<td class="k p"><a class="TS" href="#t275"> </a></td>
+<td class="k p"><a class="TS" href="#t276"> </a></td>
+<td class="k p"><a class="TS" href="#t277"> </a></td>
+<td class="k p"><a class="TS" href="#t278"> </a></td>
+<td class="k p"><a class="TS" href="#t279"> </a></td>
+<td class="k p"><a class="TS" href="#t280"> </a></td>
+<td class="k p"><a class="TS" href="#t281"> </a></td>
+<td class="k p"><a class="TS" href="#t282"> </a></td>
+<td class="k p"><a class="TS" href="#t283"> </a></td>
+<td class="k p"><a class="TS" href="#t284"> </a></td>
+<td class="k p"><a class="TS" href="#t285"> </a></td>
+<td class="k p"><a class="TS" href="#t286"> </a></td>
+<td class="k p"><a class="TS" href="#t287"> </a></td>
+<td class="k p"><a class="TS" href="#t288"> </a></td>
+<td class="k p"><a class="TS" href="#t289"> </a></td>
+<td class="k p"><a class="TS" href="#t290"> </a></td>
+<td class="k p"><a class="TS" href="#t291"> </a></td>
+<td class="k p"><a class="TS" href="#t292"> </a></td>
+
+</tr>
+</table>
+<div class="test-detail">
+<ul class="parse-errors">
+</ul>
+<ul class="test-out">
+<li class="pln">1..33</li>
+<li class="cmt"># Running under perl version 5.008004 for darwin</li>
+<li class="cmt"># Current time local: Wed Aug 13 14:50:56 2008</li>
+<li class="cmt"># Current time GMT:   Wed Aug 13 13:50:56 2008</li>
+<li class="cmt"># Using Test.pm version 1.24</li>
+<li id="t260" class="tst k">ok 1</li>
+<li id="t261" class="tst k">ok 2</li>
+<li id="t262" class="tst k">ok 3</li>
+<li id="t263" class="tst k">ok 4</li>
+<li id="t264" class="tst k">ok 5</li>
+<li id="t265" class="tst k">ok 6</li>
+<li id="t266" class="tst k">ok 7</li>
+<li id="t267" class="tst k">ok 8</li>
+<li id="t268" class="tst k">ok 9</li>
+<li id="t269" class="tst k">ok 10</li>
+<li id="t270" class="tst k">ok 11</li>
+<li id="t271" class="tst k">ok 12</li>
+<li id="t272" class="tst k">ok 13</li>
+<li id="t273" class="tst k">ok 14</li>
+<li id="t274" class="tst k">ok 15</li>
+<li id="t275" class="tst k">ok 16</li>
+<li id="t276" class="tst k">ok 17</li>
+<li id="t277" class="tst k">ok 18</li>
+<li id="t278" class="tst k">ok 19</li>
+<li id="t279" class="tst k">ok 20</li>
+<li id="t280" class="tst k">ok 21</li>
+<li id="t281" class="tst k">ok 22</li>
+<li id="t282" class="tst k">ok 23</li>
+<li id="t283" class="tst k">ok 24</li>
+<li id="t284" class="tst k">ok 25</li>
+<li id="t285" class="tst k">ok 26</li>
+<li id="t286" class="tst k">ok 27</li>
+<li id="t287" class="tst k">ok 28</li>
+<li id="t288" class="tst k">ok 29</li>
+<li id="t289" class="tst k">ok 30</li>
+<li id="t290" class="tst k">ok 31</li>
+<li id="t291" class="tst k">ok 32</li>
+<li id="t292" class="tst k">ok 33</li>
+</ul>
+</div>
+</td>
+<td class="time">0.11s</td>
+<td class="percent c cb">100.0%</td>
+</tr>
+<tr class="test-run passed" id="">
+<td class="file c">
+<a class="file" href="#" title="Test ok.
+  2 planned, 2 run
+  2 ok, 0 failed
+  0 todo, 0 skipped
+exit status: 0
+wait status: 0">t/99cleanup.t</a>
+</td>
+<td class="results">
+<table class="TS">
+<tr>										<td class="k p"><a class="TS" href="#t293"> </a></td>
+<td class="k p"><a class="TS" href="#t294"> </a></td>
+
+</tr>
+</table>
+<div class="test-detail">
+<ul class="parse-errors">
+</ul>
+<ul class="test-out">
+<li class="pln">1..2</li>
+<li class="cmt"># Running under perl version 5.008004 for darwin</li>
+<li class="cmt"># Current time local: Wed Aug 13 14:50:57 2008</li>
+<li class="cmt"># Current time GMT:   Wed Aug 13 13:50:57 2008</li>
+<li class="cmt"># Using Test.pm version 1.24</li>
+<li id="t293" class="tst k">ok 1</li>
+<li id="t294" class="tst k">ok 2</li>
+</ul>
+</div>
+</td>
+<td class="time">0.01s</td>
+<td class="percent c cb">100.0%</td>
+</tr>
+<tr class="test-run failed severity-very-low" id="">
+<td class="file c">
+<a class="file" href="#" title="Test failed!
+  49 planned, 49 run
+  48 ok, 1 failed
+  0 todo, 0 skipped
+exit status: 0
+wait status: 0">t/ak-dbd.t</a>
+</td>
+<td class="results">
+<table class="TS">
+<tr>										<td class="k p"><a class="TS" href="#t295"> </a></td>
+<td class="k p"><a class="TS" href="#t296"> </a></td>
+<td class="k p"><a class="TS" href="#t297"> </a></td>
+<td class="k p"><a class="TS" href="#t298"> </a></td>
+<td class="k p"><a class="TS" href="#t299"> </a></td>
+<td class="k p"><a class="TS" href="#t300"> </a></td>
+<td class="k p"><a class="TS" href="#t301"> </a></td>
+<td class="k p"><a class="TS" href="#t302"> </a></td>
+<td class="k p"><a class="TS" href="#t303"> </a></td>
+<td class="k p"><a class="TS" href="#t304"> </a></td>
+<td class="k p"><a class="TS" href="#t305"> </a></td>
+<td class="k p"><a class="TS" href="#t306"> </a></td>
+<td class="k p"><a class="TS" href="#t307"> </a></td>
+<td class="k p"><a class="TS" href="#t308"> </a></td>
+<td class="k p"><a class="TS" href="#t309"> </a></td>
+<td class="k p"><a class="TS" href="#t310"> </a></td>
+<td class="k p"><a class="TS" href="#t311"> </a></td>
+<td class="k p"><a class="TS" href="#t312"> </a></td>
+<td class="k p"><a class="TS" href="#t313"> </a></td>
+<td class="n f"><a class="TS" href="#t314"> </a></td>
+<td class="k p"><a class="TS" href="#t315"> </a></td>
+<td class="k p"><a class="TS" href="#t316"> </a></td>
+<td class="k p"><a class="TS" href="#t317"> </a></td>
+<td class="k p"><a class="TS" href="#t318"> </a></td>
+<td class="k p"><a class="TS" href="#t319"> </a></td>
+<td class="k p"><a class="TS" href="#t320"> </a></td>
+<td class="k p"><a class="TS" href="#t321"> </a></td>
+<td class="k p"><a class="TS" href="#t322"> </a></td>
+<td class="k p"><a class="TS" href="#t323"> </a></td>
+<td class="k p"><a class="TS" href="#t324"> </a></td>
+<td class="k p"><a class="TS" href="#t325"> </a></td>
+<td class="k p"><a class="TS" href="#t326"> </a></td>
+<td class="k p"><a class="TS" href="#t327"> </a></td>
+<td class="k p"><a class="TS" href="#t328"> </a></td>
+<td class="k p"><a class="TS" href="#t329"> </a></td>
+<td class="k p"><a class="TS" href="#t330"> </a></td>
+<td class="k p"><a class="TS" href="#t331"> </a></td>
+<td class="k p"><a class="TS" href="#t332"> </a></td>
+<td class="k p"><a class="TS" href="#t333"> </a></td>
+<td class="k p"><a class="TS" href="#t334"> </a></td>
+<td class="k p"><a class="TS" href="#t335"> </a></td>
+<td class="k p"><a class="TS" href="#t336"> </a></td>
+<td class="k p"><a class="TS" href="#t337"> </a></td>
+<td class="k p"><a class="TS" href="#t338"> </a></td>
+<td class="k p"><a class="TS" href="#t339"> </a></td>
+<td class="k p"><a class="TS" href="#t340"> </a></td>
+<td class="k p"><a class="TS" href="#t341"> </a></td>
+<td class="k p"><a class="TS" href="#t342"> </a></td>
+<td class="k p"><a class="TS" href="#t343"> </a></td>
+
+</tr>
+</table>
+<div class="test-detail">
+<ul class="parse-errors">
+</ul>
+<ul class="test-out">
+<li class="unk">Inserting a row...</li>
+<li class="unk">Deleting a row...</li>
+<li class="pln">1..49</li>
+<li id="t295" class="tst k">ok 1 </li>
+<li id="t296" class="tst k">ok 2 </li>
+<li id="t297" class="tst k">ok 3 0E0</li>
+<li id="t298" class="tst k">ok 4 </li>
+<li id="t299" class="tst k">ok 5 </li>
+<li id="t300" class="tst k">ok 6 </li>
+<li id="t301" class="tst k">ok 7 </li>
+<li id="t302" class="tst k">ok 8 0E0</li>
+<li class="unk">Inserting a row...</li>
+<li id="t303" class="tst k">ok 9 </li>
+<li class="unk">Deleting a row...</li>
+<li id="t304" class="tst k">ok 10 </li>
+<li id="t305" class="tst k">ok 11 </li>
+<li id="t306" class="tst k">ok 12 </li>
+<li id="t307" class="tst k">ok 13 </li>
+<li id="t308" class="tst k">ok 14 </li>
+<li id="t309" class="tst k">ok 15 </li>
+<li id="t310" class="tst k">ok 16 </li>
+<li id="t311" class="tst k">ok 17 </li>
+<li id="t312" class="tst k">ok 18 </li>
+<li class="unk">Test 19: Setting $debug_me to TRUE</li>
+<li id="t313" class="tst k">ok 19 </li>
+<li id="t314" class="tst n">not ok 20 - </li>
+<li class="unk">FAILED Test 20 - </li>
+<li class="unk">sth-&gt;rows returned wrong result 0 after 'execute'.</li>
+<li id="t315" class="tst k">ok 21 </li>
+<li id="t316" class="tst k">ok 22 </li>
+<li id="t317" class="tst k">ok 23 </li>
+<li id="t318" class="tst k">ok 24 </li>
+<li class="unk">Test 25: Setting $debug_me to TRUE</li>
+<li id="t319" class="tst k">ok 25 </li>
+<li id="t320" class="tst k">ok 26 </li>
+<li id="t321" class="tst k">ok 27 </li>
+<li id="t322" class="tst k">ok 28 </li>
+<li id="t323" class="tst k">ok 29 </li>
+<li id="t324" class="tst k">ok 30 </li>
+<li id="t325" class="tst k">ok 31 </li>
+<li id="t326" class="tst k">ok 32 </li>
+<li id="t327" class="tst k">ok 33 </li>
+<li id="t328" class="tst k">ok 34 </li>
+<li id="t329" class="tst k">ok 35 </li>
+<li id="t330" class="tst k">ok 36 </li>
+<li id="t331" class="tst k">ok 37 </li>
+<li id="t332" class="tst k">ok 38 </li>
+<li id="t333" class="tst k">ok 39 </li>
+<li id="t334" class="tst k">ok 40 </li>
+<li id="t335" class="tst k">ok 41 execute 284</li>
+<li class="unk">fetchrow 286</li>
+<li id="t336" class="tst k">ok 42 Alligator Descartes</li>
+<li id="t337" class="tst k">ok 43 </li>
+<li id="t338" class="tst k">ok 44 </li>
+<li id="t339" class="tst k">ok 45 </li>
+<li id="t340" class="tst k">ok 46 </li>
+<li id="t341" class="tst k">ok 47 </li>
+<li id="t342" class="tst k">ok 48 </li>
+<li id="t343" class="tst k">ok 49 </li>
+</ul>
+</div>
+</td>
+<td class="time">0.27s</td>
+<td class="percent c cb">98.0%</td>
+</tr>
+<tr class="test-run passed" id="">
+<td class="file c">
+<a class="file" href="#" title="Test ok.
+  4 planned, 4 run
+  4 ok, 0 failed
+  0 todo, 0 skipped
+exit status: 0
+wait status: 0">t/dbdadmin.t</a>
+</td>
+<td class="results">
+<table class="TS">
+<tr>										<td class="k p"><a class="TS" href="#t344"> </a></td>
+<td class="k p"><a class="TS" href="#t345"> </a></td>
+<td class="k p"><a class="TS" href="#t346"> </a></td>
+<td class="k p"><a class="TS" href="#t347"> </a></td>
+
+</tr>
+</table>
+<div class="test-detail">
+<ul class="parse-errors">
+</ul>
+<ul class="test-out">
+<li class="pln">1..4</li>
+<li id="t344" class="tst k">ok 1 </li>
+<li id="t345" class="tst k">ok 2 </li>
+<li id="t346" class="tst k">ok 3 </li>
+<li id="t347" class="tst k">ok 4 </li>
+</ul>
+</div>
+</td>
+<td class="time">0.09s</td>
+<td class="percent c cb">100.0%</td>
+</tr>
+</tbody>
+
+<tfoot>
+<tr>
+<td class="file">24 files</td>
+<td class="results">
+348 tests,
+347 ok,
+1 failed,
+0 todo,
+0 skipped,
+0 parse errors<br/>
+exit status: 0,
+wait status: 0<br/>
+elapsed time: 7 wallclock secs ( 0.35 usr  0.20 sys +  2.34 cusr  0.81 csys =  3.70 CPU)</td>
+<td class="time">4.60s</td>
+<td class="percent  severity-very-low">99.7%</td>
+</tr>
+</tfoot>
+</table>
+</div>
+
+<div id="footer">Generated by TAP::Formatter::HTML v0.05 @ 14:50:58 13-Aug-2008</div>
+
+</body>
+</html>
